@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #e2d5c1;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+ text-decoration: none;
+ color: #5f3711;
+ font-size: 1rem;
+}
+
+a:hover {
+    color: #c27b57;
+    text-decoration: underline;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;   
+}
+
+.action-btn {
+    background-color: #5f3711;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action-btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.action-btn:active {
+    scale: 0.95;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+    transition: scale 0.2 ease;
+}
+
+.img1:hover {
+    scale: 1.05;
+    opacity: 70%;
+}
+
+.img2:hover {
+    scale: 1.05;
+    opacity: 70%;
+}
+
+.img3:hover {
+    scale: 1.05;
+    opacity: 70%;
+}
+
+.img4:hover {
+    scale: 1.05;
+    opacity: 70%;
+}
+
+.img5:hover {
+    scale: 1.05;
+    opacity: 70%;
+}
+
+.img6:hover {
+    scale: 1.05;
+    opacity: 70%;
+}
+
+img:active {
+    scale: 0.95;
+    opacity: 70%;
+}
+
+.titulo {
+    color: #5f3711;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000;
+    padding: 100px;
+}
+
+/* CSS FLEXBOX 1 */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    width: 600;
+    height: 400;
+    flex: 1 1 300px;
+    margin: 20px;
+}
